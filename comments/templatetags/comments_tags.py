@@ -41,7 +41,7 @@ def get_comments(object, user):
         except:
             liked.append(False)
     return {"form": CommentForm(),
-            "comment_liked": zip(comments, liked),
+            "comment_liked": list(zip(comments, liked)),
             "target": object,
             "user": user,
             "comments_count": comments.count(),
