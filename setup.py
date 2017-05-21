@@ -5,7 +5,7 @@ from setuptools import find_packages
 setup(
     name='django-ajax-comments',
     version='1.1.0.dev1',
-    author=u'DREIDEV',
+    author='DREIDEV',
     author_email='info@dreidev.com',
     url='https://github.com/dreidev/Comments',
     license='MIT',

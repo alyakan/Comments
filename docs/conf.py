@@ -47,9 +47,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-ajax-comments'
-copyright = u'2015, DREIDEV'
-author = u'DREIDEV'
+project = 'django-ajax-comments'
+copyright = '2015, DREIDEV'
+author = 'DREIDEV'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -224,8 +224,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'django-ajax-comments.tex', u'django-ajax-comments Documentation',
-   u'DREIDEV', 'manual'),
+  (master_doc, 'django-ajax-comments.tex', 'django-ajax-comments Documentation',
+   'DREIDEV', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -254,7 +254,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'django-ajax-comments', u'django-ajax-comments Documentation',
+    (master_doc, 'django-ajax-comments', 'django-ajax-comments Documentation',
      [author], 1)
 ]
 
@@ -268,7 +268,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'django-ajax-comments', u'django-ajax-comments Documentation',
+  (master_doc, 'django-ajax-comments', 'django-ajax-comments Documentation',
    author, 'django-ajax-comments', 'One line description of project.',
    'Miscellaneous'),
 ]
